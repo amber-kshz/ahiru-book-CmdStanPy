@@ -7,6 +7,7 @@
 
 * `Makefile` : docker containerのbuildとrunに利用。
 * `docker` : docker containerのbuildに必要な`Dockerfile`。
+* `HelloWorld` : CmdStanPyの動作確認用の[Hello, World](https://cmdstanpy.readthedocs.io/en/latest/getting_started.html#hello-world)の内容
 * `Chap{n}` :　各章の内容に対応したコード、データ、ノートブック。
     * `data` : 入力データ
     * `model` : Stan file

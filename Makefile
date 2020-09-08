@@ -1,4 +1,4 @@
-TAG=amberkshz/cmdstanpy:1
+TAG=amberkshz/ahiru-book:1
 
 .PHONY: build
 build:

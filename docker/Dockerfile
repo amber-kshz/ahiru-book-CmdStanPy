@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 RUN apt-get -y update
-RUN apt-get -y install python3.8
+RUN apt-get -y install python3
 RUN apt-get -y install python3-pip
 RUN pip3 install --upgrade pip
 RUN pip3 install numpy scipy matplotlib seaborn pandas cmdstanpy[all] arviz jupyterlab 

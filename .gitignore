@@ -1,7 +1,5 @@
 .ipynb_checkpoints
-*.hpp
-bernoulli
-model4-5
-model4-4
-ex3
-ex5
+HelloWorld/model/*
+!HelloWorld/model/*.stan
+chap*/model/*
+!chap*/model/*.stan

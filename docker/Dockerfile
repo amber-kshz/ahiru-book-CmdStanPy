@@ -4,7 +4,7 @@ RUN apt-get -y update
 RUN apt-get -y install python3
 RUN apt-get -y install python3-pip
 RUN pip3 install --upgrade pip
-RUN pip3 install numpy scipy matplotlib seaborn pandas cmdstanpy[all] arviz jupyterlab 
+RUN pip3 install numpy scipy scikit-learn matplotlib seaborn pandas cmdstanpy[all] arviz jupyterlab 
 RUN python3 -c 'import cmdstanpy; cmdstanpy.install_cmdstan()'
 
 WORKDIR /workdir

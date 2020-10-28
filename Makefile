@@ -4,6 +4,10 @@ TAG=amberkshz/ahiru-book:1
 build:
 	docker image build -t $(TAG) --no-cache -f docker/Dockerfile docker
 
+.PHONY: push
+push:
+	docker push $(TAG)
+
 .PHONY: run
 run:
 	docker container run -it --rm \

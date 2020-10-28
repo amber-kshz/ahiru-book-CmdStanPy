@@ -1,5 +1,3 @@
 .ipynb_checkpoints
-HelloWorld/model/*
-!HelloWorld/model/*.stan
 chap*/model/*
 !chap*/model/*.stan
